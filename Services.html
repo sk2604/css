@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Services</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+		*{
+				margin: 0;
+				padding: 0;
+			}
+
+			.gym{
+				height: 500px;
+				background-image: url(testtt.jpg);
+
+				/*background-color: black;*/
+				width: 100%;
+				/*height: 100vh;*/
+				background-position: center;
+				background-size: cover;
+			}
+			.logo img {
+				margin: 20px 0 0 90px;
+				float: left;
+				width: 120px;
+				height: 120px;
+			}
+			.gym ul{
+				/*background-color: dimgrey;*/
+			 	/*opacity: 60%;*/
+				display: flex;
+				text-align: right;
+				position: relative;
+				float: right;
+				list-style: none;	
+				text-decoration: none;
+
+			}
+			.gym ul li {
+				display: flex;
+				float: right;
+				margin-top: 20px;
+				padding: 30px;
+				position: relative;
+				text-decoration: none;
+
+			}
+
+			.gym ul li a{
+				text-decoration: none;
+				display: flex;
+				font-size: x-large;
+				color: ghostwhite;
+				
+			}
+			.gym ul li a:hover{
+				color: indianred;
+				transition: 0.5s ease;
+ 			}
+
+ 			.text{
+ 				color: ghostwhite;
+ 				font-size: xx-large;
+ 				text-align: left;
+ 				margin-left: 100px;
+ 				padding-top: 200px;
+ 				
+ 			}
+ 			.text span{
+ 				color: rgba(245, 59, 87,1.0);
+ 				font-size: x-large;
+ 			}
+
+
+
+
+
+
+
+
+/*AEROBIC 			*/
+
+ 			.aerobic{
+ 				display: flex;
+
+ 			}
+
+ 			.aerobicimg img{
+ 				width: 800px;
+ 				float: right;
+ 				height: 100vh;
+ 			}
+
+ 			.aerobicimg img:hover{
+ 				transform: scale(0.9);
+ 				transition: 1s ease;
+
+ 			}
+
+ 			
+ 			.ae{
+ 				background-color: rgba(45, 52, 54,1.0);
+ 				height: 100vh;
+ 				width: 50%;	
+ 				border: 1px solid transparent;
+ 				
+ 			}
+
+ 			h1{
+ 				color: indianred;
+ 				margin-top: 50px;
+ 				margin-left: 100px;
+ 				font-size: xx-large;
+ 			}
+
+ 			p{
+ 				font-size: large;
+ 				margin-top: 50px;
+ 				margin-left: 100px;
+ 			}
+
+ 			.aerobicpoints{
+ 				font-size: large;
+ 				text-decoration: bold;
+ 				margin-left: 100px;
+ 			}
+
+ 			.box{
+
+ 				text-align: center;
+ 				width: 500px;
+ 				height: 80px;
+ 				margin-top: 20px;
+ 				margin-left: 100px;
+ 				background-color: indianred;
+ 				color: ghostwhite;
+ 				border: 1px solid transparent;
+ 			}
+
+
+
+
+
+
+
+/*SAUNA*/
+
+
+ 			.sauna{
+ 				display: flex;
+ 			}
+
+ 			.sauimgg img{
+ 				width: 900px;
+ 				float: right;
+ 				height: 100vh;
+ 				/*background-color: black;*/
+ 			}
+
+ 			.sauimgg img:hover{
+ 				transform: scale(0.9);
+ 				transition: 1s ease;
+
+ 			}
+
+ 			.sau{
+ 				/*height: 100vh;*/
+ 				/*width: 50%;*/
+ 				border: 1px solid transparent;
+ 				background-color: rgba(45, 52, 54,1.0);
+ 			}
+ 			h2{
+ 				font-size: xx-large;
+ 				color: indianred;
+ 				margin-left: 50px;
+ 				margin-top: 20px;
+ 			}
+
+ 			.sau p{
+ 				font-size: large;
+ 				margin-left: 50px;
+ 			}
+
+ 			.saunapoints{
+ 				font-size: large;
+ 				text-decoration: bold;
+ 				margin-left: 50px;
+ 			}
+ 			.boxsau{
+ 				text-align: center;
+ 				width: 500px;
+ 				height: 80px;
+ 				margin-top: 20px;
+ 				margin-left: 50px;
+ 				background-color: indianred;
+ 				color: ghostwhite;
+ 				border: 1px solid transparent;
+ 			}
+
+ 				
+
+
+
+
+
+/*SPA*/
+
+
+			.spa{
+ 				display: flex;
+
+ 			}
+
+ 			.spaimg img{
+ 				width: 800px;
+ 				float: right;
+ 				height: 100vh;
+ 			}
+
+ 			.spaimg img:hover{
+ 				transform: scale(0.9);
+ 				transition: 1s ease;
+
+ 			}
+
+ 			
+ 			.sp{
+ 				background-color: rgba(45, 52, 54,1.0);
+ 				height: 100vh;
+ 				width: 50%;	
+ 				border: 1px solid transparent;
+ 			}
+
+ 			h3{
+ 				color: indianred;
+ 				margin-top: 50px;
+ 				margin-left: 100px;
+ 				font-size: xx-large;
+ 			}
+
+ 			.sp p{
+ 				font-size: large;
+ 				margin-top: 50px;
+ 				margin-left: 100px;
+ 			}
+
+ 			.spapoints{
+ 				font-size: large;
+ 				text-decoration: bold;
+ 				margin-left: 100px;
+ 			}
+
+ 			.boxspa{
+ 				text-align: center;
+ 				width: 500px;
+ 				height: 80px;
+ 				margin-top: 20px;
+ 				margin-left: 100px;
+ 				background-color: indianred;
+ 				color: ghostwhite;
+ 				border: 1px solid transparent;
+ 			}
+
+
+
+
+
+
+
+
+
+
+
+/*AQUA*/
+
+ 			.aqua{
+ 				display: flex;
+ 			}
+
+ 			.aquaimgg img{
+ 				width: 900px;
+ 				float: right;
+ 				height: 100vh;
+ 			}
+
+ 			.aquaimgg img:hover{
+ 				transform: scale(0.9);
+ 				transition: 1s ease;
+
+ 			}
+
+ 			.aqua{
+ 				/*height: 100vh;*/
+ 				/*width: 50%;*/
+ 				border: 1px solid transparent;
+ 				background-color: rgba(45, 52, 54,1.0);
+ 			}
+ 			h4{
+ 				font-size: xx-large;
+ 				color: indianred;
+ 				margin-left: 50px;
+ 				margin-top: 20px;
+ 			}
+
+ 			.aqua p{
+ 				font-size: large;
+ 				margin-left: 50px;
+ 			}
+
+ 			.aquapoints{
+ 				font-size: large;
+ 				text-decoration: bold;
+ 				margin-left: 50px;
+ 			}
+ 			.boxsaq{
+ 				text-align: center;
+ 				width: 500px;
+ 				height: 80px;
+ 				margin-top: 20px;
+ 				margin-left: 50px;
+ 				background-color: indianred;
+ 				color: ghostwhite;
+ 				border: 1px solid transparent;
+ 			}
+
+
+
+
+
+
+
+
+ 			.footer{	
+ 				/*float: left;*/
+ 				font-size: xx-large;
+ 				height: 600px;
+ 				width: 100%;
+ 				background-color: rgba(61, 61, 61,1.0);
+ 				justify-content: space-around;
+
+ 				display: flex;
+ 				text-align: left;
+ 				font-size: large;
+ 			}	
+
+
+
+ 			.iconss{
+ 				display: flex;
+ 				justify-content: space-around;
+ 				font-size: xx-large;
+ 			}
+ 			.iconfb{
+ 				font-size: xx-large;
+ 				text-align: center;
+ 				border: 2px solid black;
+ 				border-radius: 100%;
+ 				height: 40px;
+ 				width: 40px;
+ 			}
+ 			.iconfb:hover{
+ 				color: white;
+ 				background-color: black;
+ 			}
+
+ 			.icontwitter{
+ 				font-size: xx-large;
+ 				text-align: center;
+ 				border: 2px solid black;
+ 				border-radius: 100%;
+ 				height: 40px;
+ 				width: 40px;
+ 			}
+
+ 			.icontwitter:hover{
+ 				color: white;
+ 				background-color: black;
+ 			}	
+
+ 			.iconyt{
+ 				font-size: xx-large;
+ 				text-align: center;
+ 				border: 2px solid black;
+ 				border-radius: 100%;
+ 				height: 40px;
+ 				width: 40px;
+ 			}
+ 			.iconyt:hover{
+ 				color: white;
+ 				background-color: black;
+ 			}
+ 			.iconinsta{
+ 				font-size: xx-large;
+ 				text-align: center;
+ 				border: 2px solid black;
+ 				border-radius: 100%;
+ 				height: 40px;
+ 				width: 40px;
+ 			}
+
+ 			.iconinsta:hover{
+ 				color: white;
+ 				background-color: black;
+ 			}
+
+
+
+ 			.foot1{
+ 				border: 2px solid transparent;
+ 				height: 400px;
+ 				width: 23%;
+ 				font-size: large;
+ 				/*float: left;*/
+ 			}
+
+ 			.foot1 img{
+ 				margin-top: 10px;
+ 				/*padding-left: 0px;*/
+ 				/*float: left;*/
+ 				
+ 			}
+
+ 			
+	 		.foot2{                                    /*PAGES*/
+ 				border: 2px solid transparent;
+ 				height: 400px;
+ 				width: 23%;
+ 				/*margin: 20px;*/
+ 				color: indianred;
+ 				text-decoration: underline;
+ 				text-underline-position: under;
+ 				font-size: x-large;
+ 				/*float: right;*/
+ 				/*text-align: left;*/
+
+ 			
+ 			}
+
+ 			.foot2 h1{
+ 				font-size: xx-large;
+ 				color: indianred;
+ 				margin-left: 20px;
+ 			}
+	 			
+ 			.foot2 ul{ 				
+ 				display: inline-block;
+				text-align: left;
+				position: relative;
+				/*margin: 20px;*/
+				float: left;
+				margin-top:  20px;
+				/*margin-left: 20px;*/
+				
+ 			}
+
+ 			.foot2 ul li {
+				/*top: 100%;*/
+				/*left: 0;*/
+				list-style: none;
+				display: inline-block;
+				padding: 30px;
+				
+				position: relative;
+				text-decoration: none;
+			}
+
+			.foot2 ul li a{
+				text-decoration: none;
+				display: inline;
+				font-size: x-large;
+				color: ghostwhite;
+			}
+			.foot2 ul li a:hover{
+				color: indianred;
+				transition: 0.5s ease;
+ 			}
+
+	 		.foot2 ul ul{
+	 			top: 100%;
+	 			left: 0;
+	 		}
+
+ 			.foot3{
+ 				border: 2px solid transparent;
+ 				height: 400px;
+ 				width: 23%;
+ 				color: indianred;
+ 				font-size: large;
+ 				text-align: left;
+
+ 			}
+ 			.foot3 h1{
+ 				text-decoration: underline;
+ 				text-underline-position: under;
+ 				font-size: xx-large;
+ 				color: indianred;
+ 				margin-left: 20px;
+ 			}
+ 			.foot3 span{
+ 				color: ghostwhite;
+ 				font-size: x-large;
+ 				text-decoration: none;
+ 			}
+
+ 			.foot3 i{
+ 				margin: 20px;
+ 				margin-top: 30px;
+ 				font-size: 30px;
+ 				color: indianred;
+ 				
+
+ 			}
+ 			.foot4{
+
+ 				border: 2px solid transparent;
+ 				height: 400px;
+ 				width: 23%;
+ 				color: indianred;
+ 				text-decoration: underline;
+ 				text-underline-position: under;
+ 				font-size: large;
+ 				text-align: left;
+ 			}
+ 			.foot4 h1{
+ 				font-size: xx-large;
+ 				color: indianred;
+ 				margin-left: 20px;
+ 			}
+
+ 			.img0{
+ 				margin-top: 10px;
+ 				height: 330px ;
+ 				width: 94%;
+ 				border: 2px solid transparent;
+ 				padding-top: 20px;
+ 				padding-left: 20px;
+ 			}
+
+ 			.foot4 img{
+ 				display: inline-block;
+ 				margin: 0;
+ 				/*padding-top: 20px;*/
+ 				/*margin-top: 20px;*/
+ 				
+ 				height: 80px;
+ 				width: 80px;
+ 			}
+
+ 			.foot4 img:hover{
+ 				transform: scale(0.9);
+ 				transition: 2s ease;
+ 			}
+
+
+
+
+
+
+
+
+
+
+
+
+	</style>
+
+
+
+</head>
+<body>
+
+
+
+<div class="gym">
+	<div class="logo">
+		<img src="beast_brother_logo-removebg-preview.png">
+	</div>
+
+	 	<ul>
+			<li><a href="file:///C:/Users/kohli/OneDrive/Desktop/HTML%20WEBSITE/First%20Project/project.html">Home</a></li>
+			<li><a href="file:///C:/Users/kohli/OneDrive/Desktop/HTML%20WEBSITE/First%20Project/CLASSES.html">Classes</a></li>
+			<li><a href="file:///C:/Users/kohli/OneDrive/Desktop/HTML%20WEBSITE/First%20Project/TRAINERS.html">Trainers</a></li>
+			<!-- <li><a href="file:///C:/Users/kohli/OneDrive/Desktop/HTML%20WEBSITE/First%20Project/TIMETABLE.html">Timetable</a></li> -->
+			<li><a href="file:///C:/Users/kohli/OneDrive/Desktop/HTML%20WEBSITE/First%20Project/Services.html">Services</a></li>
+			<li><a href="file:///C:/Users/kohli/OneDrive/Desktop/HTML%20WEBSITE/First%20Project/GALLERY.html">Gallery</a></li>
+			<li><a href="file:///C:/Users/kohli/OneDrive/Desktop/HTML%20WEBSITE/First%20Project/CONTACT.html">Contact Us</a></li>
+
+		</ul>
+		<div class="text">
+         <h1>
+         		SERVICES <span><br>
+         			FULL LIST OF SERVICES
+         		</span>
+         </h1>
+         <!-- <button class="button">
+         	View More
+         </button> -->
+         </div>
+</div>	
+
+
+
+
+
+
+
+<!-- AEROBIC -->
+
+<div class="aerobic">
+<div class="aerobicimg">
+				<img src="C:\Users\kohli\OneDrive\Desktop\HTML WEBSITE\First Project\aerobicimg.jpg">
+		</div>
+	<div class="ae">
+		<h1>AEROBIC</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br>sed do eiusmod
+			tempor incididunt ut labore et dolore <br>magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation <br>ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. <br>Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum <br>dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat <br>non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+			<br>
+			<div class="aerobicpoints">
+			<i class="fa fa-check" aria-hidden="true"></i>  Lorem ipsum dolor sit amet, consectetuer adipiscing elit<br><br>
+			<i class="fa fa-check" aria-hidden="true"></i> Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna<br><br>
+			<i class="fa fa-check" aria-hidden="true"></i> Ut wisi enim ad minim veniam<br><br>
+			<i class="fa fa-check" aria-hidden="true"></i> Quis nostrud exerci tation ullamcorper suscipit lobortis<br><br>
+			<i class="fa fa-check" aria-hidden="true"></i> Nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet<br><br>
+			<i class="fa fa-check" aria-hidden="true"></i>  Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut<br><br>
+			</div>
+			<br>
+
+		<div class="box">
+			NEW!! Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+ 			<br>Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+ 			<br>Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+
+
+		</div>	
+
+
+</div>
+</div>
+
+
+
+
+
+
+<!-- SAUNA -->
+
+
+<div class="sauna">
+	
+		<div class="sau">
+			<h2>Sauna</h2>
+
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br>sed do eiusmod
+			tempor incididunt ut labore et dolore <br>magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation <br>ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. <br>Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum <br>dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat <br>non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+			</p>
+
+			<br>
+			<div class="saunapoints">
+			<i class="fa fa-check" aria-hidden="true"></i>  Lorem ipsum dolor sit amet, consectetuer adipiscing elit<br><br>
+			<i class="fa fa-check" aria-hidden="true"></i> Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna<br><br>
+			<i class="fa fa-check" aria-hidden="true"></i> Ut wisi enim ad minim veniam<br><br>
+			<i class="fa fa-check" aria-hidden="true"></i> Quis nostrud exerci tation ullamcorper suscipit lobortis<br><br>
+			<i class="fa fa-check" aria-hidden="true"></i> Nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet<br><br>
+			<i class="fa fa-check" aria-hidden="true"></i>  Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut<br><br>
+			</div>
+			<br>
+
+		<div class="boxsau">
+			NEW!! Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+ 			<br>Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+ 			<br>Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+
+
+		</div>	
+
+
+</div>
+
+<div class="sauimgg">
+		<img src="C:\Users\kohli\OneDrive\Desktop\HTML WEBSITE\First Project\aerobicimg.jpg">
+</div>
+
+</div>
+
+
+	
+
+
+<!-- SPA -->
+
+
+<div class="spa">
+<div class="spaimg">
+				<img src="C:\Users\kohli\OneDrive\Desktop\HTML WEBSITE\First Project\aerobicimg.jpg">
+		</div>
+	<div class="sp">
+		<h3>SPA</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br>sed do eiusmod
+			tempor incididunt ut labore et dolore <br>magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation <br>ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. <br>Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum <br>dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat <br>non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+			<br>
+			<div class="spapoints">
+			<i class="fa fa-check" aria-hidden="true"></i>  Lorem ipsum dolor sit amet, consectetuer adipiscing elit<br><br>
+			<i class="fa fa-check" aria-hidden="true"></i> Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna<br><br>
+			<i class="fa fa-check" aria-hidden="true"></i> Ut wisi enim ad minim veniam<br><br>
+			<i class="fa fa-check" aria-hidden="true"></i> Quis nostrud exerci tation ullamcorper suscipit lobortis<br><br>
+			<i class="fa fa-check" aria-hidden="true"></i> Nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet<br><br>
+			<i class="fa fa-check" aria-hidden="true"></i>  Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut<br><br>
+			</div>
+			<br>
+
+		<div class="boxspa">
+			NEW!! Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+ 			<br>Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+ 			<br>Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+
+
+		</div>	
+
+
+</div>
+</div>
+
+<!-- AQUA -->
+
+<div class="aqua">
+	
+		<div class="aqu">
+			<h4>AQUA GYM</h4>
+
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br>sed do eiusmod
+			tempor incididunt ut labore et dolore <br>magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation <br>ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. <br>Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum <br>dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat <br>non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+			</p>
+
+			<br>
+			<div class="aquapoints">
+			<i class="fa fa-check" aria-hidden="true"></i>  Lorem ipsum dolor sit amet, consectetuer adipiscing elit<br><br>
+			<i class="fa fa-check" aria-hidden="true"></i> Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna<br><br>
+			<i class="fa fa-check" aria-hidden="true"></i> Ut wisi enim ad minim veniam<br><br>
+			<i class="fa fa-check" aria-hidden="true"></i> Quis nostrud exerci tation ullamcorper suscipit lobortis<br><br>
+			<i class="fa fa-check" aria-hidden="true"></i> Nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet<br><br>
+			<i class="fa fa-check" aria-hidden="true"></i>  Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut<br><br>
+			</div>
+			<br>
+
+		<div class="boxsaq">
+			NEW!! Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+ 			<br>Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+ 			<br>Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+
+
+		</div>	
+
+
+</div>
+
+<div class="aquaimgg">
+		<img src="C:\Users\kohli\OneDrive\Desktop\HTML WEBSITE\First Project\aerobicimg.jpg">
+</div>
+
+</div>
+
+
+
+
+
+<!-- FOOTER-->
+
+<div class="footer">
+
+	<div class="foot1">
+
+		<img src="beast_brother_logo-removebg-preview.png">
+		
+		<br>
+		<div class="ppp">
+		Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit. Ratione alias non, quo <br>saepe voluptatem sequi ullam similique.<br> Quidem, sapiente quibusdam iure <br>consequatur reprehenderit temporibus<br> amet, corrupti earum, voluptas tenetur <br>expedita. 
+		<br><br>
+		</div>
+		<div class="iconss">
+	<div class="iconfb">
+	<i class="fa fa-facebook" aria-hidden="true"></i>
+	</div>
+
+	<div class="icontwitter">
+		<i class="fa fa-twitter" aria-hidden="true"></i>
+	</div>
+
+	<div class="iconyt">
+	<i class="fa fa-youtube-play" aria-hidden="true"></i>
+	</div>
+
+	<div class="iconinsta">
+			<i class="fa fa-instagram" aria-hidden="true"></i>
+	</div>
+</div>
+
+	</div>  
+	<div class="foot2"> 
+		<h1>Pages</h1>	
+			<ul>
+			<li><a href="file:///C:/Users/kohli/OneDrive/Desktop/HTML%20WEBSITE/project.html">Home</a></li>
+			<li><a href="file:///C:/Users/kohli/OneDrive/Desktop/HTML%20WEBSITE/First%20Project/CLASSES.html">Classes</a></li>
+			<li><a href=file:///C:/Users/kohli/OneDrive/Desktop/HTML%20WEBSITE/First%20Project/TRAINERS.html>Trainers</a></li>
+			<!-- <li><a href="file:///C:/Users/kohli/OneDrive/Desktop/HTML%20WEBSITE/First%20Project/TIMETABLE.html">Timetable</a></li> -->
+			<li><a href="C:/Users/kohli/OneDrive/Desktop/HTML%20WEBSITE/First%20Project/Services.html">Services</a></li>
+			<li><a href="file:///C:/Users/kohli/OneDrive/Desktop/HTML%20WEBSITE/First%20Project/GALLERY.html">Gallery</a></li>
+			<li><a href=file:///C:/Users/kohli/OneDrive/Desktop/HTML%20WEBSITE/First%20Project/CONTACT.html>Contact Us</a></li>
+
+		
+		</ul>
+	
+</div>
+<div class="foot3">
+		<h1>Contact Us</h1>
+			<i class="fa fa-map-marker" aria-hidden="true"></i><span>Beast Brothers</span>
+			<br>
+			<i class="fa fa-phone" aria-hidden="true"></i><span>9999999999</span>
+			<br>
+			<i class="fa fa-envelope-o" aria-hidden="true"></i><span>abcd@gmail.com</span>
+	</div>
+<div class="foot4">
+	<h1>Instagram Feed</h1>
+<div class="img0">
+	<img src="C:\Users\kohli\OneDrive\Desktop\HTML WEBSITE\First Project\gym1.jpg"><img src="C:\Users\kohli\OneDrive\Desktop\HTML WEBSITE\First Project\gym2.jpg"><img src="C:\Users\kohli\OneDrive\Desktop\HTML WEBSITE\First Project\gym3.jpg"><img src="C:\Users\kohli\OneDrive\Desktop\HTML WEBSITE\First Project\gym4.jpg"><img src="C:\Users\kohli\OneDrive\Desktop\HTML WEBSITE\First Project\gym5.jpg"><img src="C:\Users\kohli\OneDrive\Desktop\HTML WEBSITE\First Project\gym6.jpg"><img src="C:\Users\kohli\OneDrive\Desktop\HTML WEBSITE\First Project\gym7.jpg"><img src="C:\Users\kohli\OneDrive\Desktop\HTML WEBSITE\First Project\gym8.jpg">
+
+
+
+</div>
+
+</div>
+
+
+	
+
+
+
+
+</body>
+</html>
